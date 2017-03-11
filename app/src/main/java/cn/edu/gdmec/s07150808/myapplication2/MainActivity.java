@@ -1,5 +1,6 @@
 package cn.edu.gdmec.s07150808.myapplication2;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Handler;
 import android.os.Message;
@@ -20,7 +21,7 @@ import java.util.List;
 import cn.edu.gdmec.s07150808.myapplication2.bean.ChatMessage;
 import cn.edu.gdmec.s07150808.myapplication2.utils.HttpUtils;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
 
     private ListView mChatView;
